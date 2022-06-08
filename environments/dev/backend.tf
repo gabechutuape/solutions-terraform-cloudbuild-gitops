@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "cloudenablementsolution-tfstate"
+    bucket = "gcptest-352718-tfstate"
     prefix = "env/dev"
   }
 }
